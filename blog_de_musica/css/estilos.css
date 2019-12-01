@@ -1,0 +1,193 @@
+.cuerpo{
+  background: url(../img/fondo4.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  float: none;
+}
+h5{
+  font-family: "Times New Roman", Georgia, sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+p{
+  font-family: courier, "Lucida Console", monospace;
+}
+/*cabecera*/
+.fila-cabecera{
+  background-color: #FBE3DD ;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.logo{
+  width: 10rem;
+}
+.titulo{
+  height: 55px;
+}
+.img-social{
+  width: 40px;
+  height: 40px;
+}
+.redes-sociales{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/*Menu*/
+.navbar{
+  margin-top: 5px;
+  background-color: #FC8666;
+}
+.nav li a{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  background-color: #FC8666;
+  padding: 7px 20px;
+  border-radius: 15px;
+  font-family: "Arial Black", Times, "Courier New";
+}
+.nav li a:hover{
+  background-color: #FBE3DD;
+  padding: 9px 20px;
+}
+.nav li{
+  text-align: center;
+}
+/*contenido*/
+.fila-contenido{
+  margin-top: 6px;
+}
+.contenido{
+  background-color:#FBE3DD;
+}
+.texto{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+.imagen{
+  height: 100%;
+  align-items: center;
+}
+.img-blog img{
+  width: 100%;
+  height: 250px;
+}
+/*Busqueda*/
+.col-busqueda{
+  padding-left: 16px;
+}
+.grupo-input{
+  margin-top: 50px
+}
+.lupa{
+  width: 20px;
+  height: 20px;
+}
+.fila-busqueda{
+  background-color:#FBE3DD;
+}
+
+.has-search .form-control{
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.form-control{
+  border-radius: 25px;
+  width: 100%;
+}
+/*Opciones de Busqueda*/
+.list-group li:hover{
+  background-color:#FBE3DD;
+}
+.columna-list-group{
+  margin-top: 10px;
+}
+
+
+
+
+/*Adapatacion en dispositivos moviles*/
+@media (max-width: 992px){
+  .titulo{
+    display: none;
+  }
+  .redes-sociales{
+    text-align: center;
+  }
+  .logo{
+    text-align: center;
+  }
+  .navbar{
+    background-color: #FC8666;
+  }
+  li{
+    text-align: center;
+    margin-left: 15px;
+  }
+  .nav li a{
+    color: black;
+    padding: 0px 0px;
+  }
+  .nav li a:hover{
+    background-color:#FC8666;
+    color: purple;
+    padding: 0px 0px;
+  }
+  .img-blog{
+    width: 100%;
+  }
+  .col-busqueda{
+    display: none;
+  }
+  .texto{
+    order: 1;
+  }
+  .block-imagen{
+    order: 2;
+  }
+  .imagen{
+    margin-top: 0px;
+  }
+  .img-blog img{
+    width: 60%;
+    height: 60%;
+  }
+}
+/* Esta seccion se borrara al terminar*/
+/*
+div[class*=col]{
+  border: 1px solid lime;
+}
+li[class*=col]{
+  border: 1px solid yellow;
+}
+.row{
+  border: 1px solid red;
+}
+.nav, .navbar{
+  border: 1px solid black;
+}
+.contenido{
+  border: 1px solid red;
+}
+.container{
+  border: 1px solid blue;
+}

@@ -1,0 +1,103 @@
+body{
+  background: url(../img/fondo.png);
+  font-family:  'Lucida Grande', 'Lucida Sans', Arial;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  float: none;
+}
+/*Caracteristicas del logo*/
+.img-logo{
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+/*Caracteristicas del menu de navegacion*/
+.boton li{
+  display: inline;
+  padding: 5px;
+}
+.boton li a{
+  border-radius: 6px;
+}
+label{
+  color: #fff;
+  font-family: sans-serif, Consolas;
+}
+/*Caracteristicas del eslogan*/
+.eslogan p{
+  font-family: sans-serif, fantasy, Consolas;
+  font-size: 25px;
+  font-style: oblique;
+  color: #fff;
+}
+/*Caracteristicas de la galeri de imagenes*/
+.galeria img{
+  width: 100%;
+  height: 100%;
+}
+.imagen{
+  box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 1.5);
+}
+/*Caracteristicas de las entradas de blog*/
+.img_blog{
+  padding: 0.6rem;
+  margin-left: 1rem;
+}
+.img_blog img{
+  width: 200px;
+  height: 200px;
+}
+.parrafo1, .parrafo2{
+  text-align:justify;
+}
+.comentario{
+   border-radius: 30px;
+}
+.area_texto{
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 5px;
+  margin-right: auto;
+}
+/*Caracteristicas del erfil del autor*/
+.img_autor{
+  width: 10em;
+  border-radius: 150px;
+}
+@media (max-width: 992px) {
+      label{
+        display:none;
+      }
+}
+@media (min-width: 992px){
+  .imagen-1, .imagen-2{
+    height: 200px;
+  }
+  .imagen-3{
+    height: 423px;
+  }
+  .imagen-4{
+    height: 250px;
+  }
+  .imagen-5{
+    height: 150px;
+  }
+}
+/*
+header{
+  border: 1px solid yellow;
+}
+.row{
+  border: 1px solid red;
+}
+
+.col{
+  border: 1px solid lime;
+}
